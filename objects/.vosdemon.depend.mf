@@ -1,0 +1,17 @@
+# DO NOT DELETE
+
+src/hypervisor_detector.o: include/hypervisor_detector.h
+src/hypervisor_detector.o: /usr/include/libvirt/libvirt.h
+src/hypervisor_detector.o: /usr/include/libvirt/virterror.h
+src/node_monitor.o: include/node_monitor.h /usr/include/arpa/inet.h
+src/node_monitor.o: /usr/include/features.h /usr/include/netinet/in.h
+src/node_monitor.o: /usr/include/stdint.h /usr/include/endian.h
+src/node_monitor.o: /usr/include/ifaddrs.h include/hypervisor_detector.h
+src/node_monitor.o: /usr/include/libvirt/libvirt.h
+src/node_monitor.o: /usr/include/libvirt/virterror.h
+src/simple_client.o: include/node_monitor.h /usr/include/arpa/inet.h
+src/simple_client.o: /usr/include/features.h /usr/include/netinet/in.h
+src/simple_client.o: /usr/include/stdint.h /usr/include/endian.h
+src/simple_client.o: /usr/include/ifaddrs.h include/hypervisor_detector.h
+src/simple_client.o: /usr/include/libvirt/libvirt.h
+src/simple_client.o: /usr/include/libvirt/virterror.h
